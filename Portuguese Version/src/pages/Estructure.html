@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/pages/styles.css" />
+    <link rel="stylesheet" href="../styles/pages/Estructure.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Estrutura de Código</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="#default">Comp<span>Sim</span></a>
+      <div class="header-right">
+        <a href="./index.html">Introdução</a>
+        <a href="./interface.html">Interface Gráfica</a>
+        <a class="active" href="./Estructure.html">Estrutura de Código</a>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Estrutura de Código</h1>
+      <p>
+        Normalmente, é comum que ao criar um programa no computador ele seja
+        descrito em uma linguagem de alto nível, como, por exemplo, a linguagem
+        C. Esse programa, com o suporte de um compilador, é traduzido para uma
+        linguagem de baixo nível, como o Assembly. Após isso, com o auxílio de
+        um montador, ele é finalmente descrito para a linguagem do computador,
+        em Bytecodes. No entanto, esse código ainda não está executável e
+        dependendo do sistema operacional ou se o programa precisar fazer o uso
+        de algumas bibliotecas, ainda será necessário o uso de outra ferramenta,
+        o Linker. Ele faz alterações no programa, em Bytecode, para que ele
+        possa utilizar bibliotecas que podem ser necessárias dependendo do
+        sistema operacional da máquina, e outra função seria ajustar o
+        endereçamento do programa e por fim gerar o executável.
+      </p>
+      <h3>Etapas para Compilação</h3>
+      <img
+        class="img"
+        src="../../public/images/compilador.JPG"
+        alt="Compilador"
+      />
+      <img class="img" src="../../public/images/montador.JPG" alt="Montador" />
+      <img class="img" src="../../public/images/linkerv2.jpg" alt="Linker" />
+      <p>(Alguns compiladores realizam todas essas etapas)</p> 
+      <img class="img1" class="img1" src="../../public/images/estrutura.JPG" alt="Estrutura de Código">
+      <p>
+        O simulador também possui uma interface gráfica que permite configurar
+        os componesnte da plataforma Mandacaru, programar uma aplicação para
+        execução no processador conceitual, configurar, executar e visualizar a
+        simulação e analizar a performance do sistema. A interface será mais
+        explorada na aba <a href="./interface.html">Interface Gráfica.</a>
+      </p> 
+     
+      <p>A estrutura do código Assembly segue as seguinte divisões:</p>
+        <ul>
+            <li>.code : Parte das instruções do programa;</li>
+            <li>.data : Seção dos dados inicializados, contém as estruturas de dados que foram definidas;</li>
+            <li>.bss : (Opcional) Block Started by Symbol ou dados não inicializados;</li>
+            <li>.stack : Inicialização da pilha;</li>
+        </ul>
+    </div>
+    <footer></footer>
+  </body>
+</html>

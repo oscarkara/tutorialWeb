@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/pages/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="http://compsim.crato.ifce.edu.br/about.html" target="_blank">Comp<span>Sim</span></a>
+      <div class="header-right">
+        <a class="active" href="">Introdução</a>
+        <a href="./interface.html">Interface Gráfica</a>
+        <a href="./Estructure.html">Estrutura de Código</a>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Home</h1>
+      <h3>Introdução</h3>
+      <p>O CompSim é uma plataforma virtual para aprendizado prático sobre
+      organização e arquitetura de computadores. O CompSim inclue uma abordagem
+      integrada para suportar estudos e conceitos de projetos relacionados à
+      componentes de hardware e suas funções, programação em nível de maquina e
+      análise de desempenho. O CompSim inclue uma plataforma virtual de
+      hardware, chamada "Mandacaru", que possui um processador conceitual
+      (processador Cariri), memórias Cache e RAM, sistema e barramentos
+      perifericos, assim como suporte a dispositivos de entrada e saída de dados
+      (Teclado e Vídeo). Esses componestes virtuais foram desenvolvidos para
+      auxiliar o estudo de diferentes conceitos da organização e arquitetura de
+      computadores, como as fases dos ciclos de instruções, a representação de
+      dados na memória, programação em nível de maquina, entre outros.</p> 
+      <br/>
+      <h4>Funções do Simulador</h4>
+      <p> O simulador também possui uma interface gráfica que permite configurar os
+      componesnte da plataforma Mandacaru, programar uma aplicação para execução
+      no processador conceitual, configurar, executar e visualizar a simulação e
+      analizar a performance do sistema. A interface será mais explorada na aba</p>
+      <a href="interface.html">Interface Gráfica</a>.
+      <h3>Recursos do CompSim</h3>
+      <ul>
+        <li>
+          Editor de código: É utilizado para realizar a programação de uma nova
+          aplicação de baixo nível para execução no simulador.
+        </li>
+        <img src="../../public/images/codeeditor.png" alt="Code Editor" />
+        <li>
+          Plataforma de configuração: Permite a criação e configuração de uma
+          plataformar de hardware virtual.
+        </li>
+        <img src="../../public/images/platformcustomization.png" alt="Platform of customization"/>
+        <li>
+          Montador: É utilizado para validar um novo pograma de baixo nível
+          (através de analise Léxica, Semantica, e Sintática.) e gerar um
+          programa binário executável.
+        </li>
+        <img src="../../public/images/assembler.png" alt="Assembler" usemap="#mapateste"/> 
+        <map name="mapateste">
+          <area shape="rect" coords="170, 30, 422, 122" alt="error" onmouseover="aparecerTexto()" onmouseout="desaparecerTexto()">
+        </map>
+        <div id="resposta">
+          </div>
+      </ul>
+          
+    </div>
+    <footer></footer>
+  </body>
+  <script src="./script.js"></script>
+</html>

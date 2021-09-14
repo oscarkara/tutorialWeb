@@ -1,0 +1,11 @@
+.container .img{
+    max-width: 200px;
+    max-height: 200px;
+    display: inline-block;
+    margin: 10px 150px 0 0;
+}
+.container .img1{
+    width: 300px;
+    float: right;
+    margin-left: 20px;
+}

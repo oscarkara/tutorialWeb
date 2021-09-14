@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/pages/styles.css" />
+    <link rel="stylesheet" href="../styles/pages/Estructure.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Code structure</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="#default">Comp<span>Sim</span></a>
+      <div class="header-right">
+        <a href="./index.html">Introduction</a>
+        <a href="./interface.html">Graphical Interface</a>
+        <a class="active" href="./Estructure.html">Code structure</a>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Code structure</h1>
+      <p>
+        Normally, it is common that when creating a program on the computer, it is described in a high-level language, such as the C language. This program, with the support of a compiler, is translated into a low-level language, such as the Assembly. After that, with the help of an assembler, it is finally described in computer language, in Bytecodes. However, this code is not yet executable and depending on the operating system or if the program needs to make use of some libraries, it will still be necessary to use another tool, Linker. It makes changes to the program, in Bytecode, so that it can use libraries that may be needed depending on the machine's operating system, and another function would be to adjust the program's addressing and finally generate the executable.
+
+      </p>
+      <h3>Compilation Steps </h3>
+      <img
+        class="img"
+        src="../../public/images/compilador.PNG"
+        alt="Compilador"
+      />
+      <img class="img" src="../../public/images/montador.PNG" alt="Montador" />
+      <img class="img" src="../../public/images/linkerv2.jpg" alt="Linker" />
+      <p>(Some compilers do all of these steps)
+      </p> 
+      <img class="img1" class="img1" src="../../public/images/estrutura.JPG" alt="Estrutura de Código">
+      <p>
+        The simulator also has a graphical interface that allows you to configure the components of the Mandacaru platform, program an application to run on the conceptual processor, configure,
+        run, visualize the simulation and analyze the system performance. The interface is more explored on the Graphical Interface tab.
+        </a>
+      </p> 
+     
+      <p>The structure of the Assembly code follows the following divisions:
+      </p>
+        <ul>
+            <li> .code : Comes from the program instructions;
+            </li>
+            <li>.data : Initialized data section, contains the data structures that have been defined;</li>
+            <li>.bss : (Optional) Block Started by Symbol or uninitialized data;
+            </li>
+            <li>.stack : Initialization from the stack. 
+
+            </li>
+        </ul>
+    </div>
+    <footer></footer>
+  </body>
+</html>
